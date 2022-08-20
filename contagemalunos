@@ -1,0 +1,20 @@
+// Lista de alunos //
+let listaalunos = ["Valter", "José", "Saulo", "Miguel", "Céulia", "Gustavo", "Tuco", "Hector", "Hank", "Maria"]
+
+//Execução //
+console.log ("Iniciando contagem de alunos presentes na sala.");
+
+console.log ("-");
+
+for (let index = 0; index < listaalunos.length; index++) {
+    console.log (index)
+    if (index ==0){
+        console.log ("Zero localizado: " + listaalunos [index])
+    } else if (index % 2) {console.log ("Número Ímpar localizado: " + listaalunos [index])}
+    else [console.log ("Número Par localizado: " + listaalunos [index])]
+    console.log [listaalunos.length]
+console.log ("-");
+}
+console.log ("Número de alunos presentes: " + listaalunos.length);
+console.log ("-");
+console.log ("FIM DO PROGRAMA");
